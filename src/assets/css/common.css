@@ -1,0 +1,25 @@
+html,body,div,p,ul,ol,li,dl,dt,dd,form,table,thead,tbody,tr,th,td,label,textarea,input,select,h1,h2,h3,h4,h5,h6,a,i,b,span{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    color: #fff;
+  }
+  html,body{
+    height: 100%;
+  }
+  a{
+    text-decoration: none;
+    cursor: pointer;
+  }
+  li{
+    list-style: none;
+  }
+  i{
+    font-style: normal;
+  }
+  button,input[type='button'],input[type='submit']{
+    cursor: pointer;
+    outline: none;
+  }
